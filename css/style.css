@@ -1,0 +1,705 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #0cc5bc;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-family:'Roboto', sans-serif; 
+    
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0cc5bc;
+    
+   
+}
+.nav-bg{
+    background: #444;
+}
+         
+/* This is Banner Part  */
+
+#banner-part1{
+    background: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+#banner-part1::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background-color:rgba(24, 17, 58, 0.6);
+    
+}
+.banner-text{
+    position: relative;
+    z-index: 99;
+    padding-top: 228px;
+    padding-bottom: 205px;
+}
+
+.banner-text h2{
+    font-size: 32px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+.banner-text h2::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #0cc5bc;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+    
+}
+
+.banner-text p{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 55px 115px 55px 115px;
+}
+.banner-text a{
+    text-decoration: none;
+    border: 1px solid #0cc5bc;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+  /*slick Slider start */
+  
+ .banner-slider{
+     z-index: 95;
+     position: relative;
+ }
+ .slick-dots {
+     text-align: center;
+     margin: 0 auto;
+     position: absolute;
+     bottom: 80px;
+     left: 50%;
+     transform: translateX(-50%);
+     
+ }
+ .slick-dots li{
+     display: inline-block;
+     margin-right: 08px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+     
+ }
+ .slick-dots li button {
+     color: transparent;
+     width: 15px;
+     height: 15px;
+     line-height: 16px;
+     border-radius: 50%;
+     border: none;
+     outline: 0;
+     cursor: pointer;
+     background: #00e0d0;
+     opacity: 0;
+     transition: 0.5s all ease;
+ }
+ .slick-dots li.slick-active button{
+     opacity: 1;
+ }
+
+               /* End Banner part css */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/*video part css*/
+
+
+  #Video-part {
+      background: url(../Images/video-background.jpg) !important ;
+      background: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      padding: 200px 0;
+     
+      
+  }
+  #Video-part::after{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(24, 17, 58, 0.7);
+  }
+
+  .video-icon {
+      position: relative;
+      z-index: 100;
+  }
+  .video-icon i {
+      color: #fff;
+      font-size: 40px;
+      width: 80px ;
+      height: 80px;
+      line-height: 80px ;
+      border-radius: 50%;
+      border: 3px solid #fff ;
+      text-align: center;
+      cursor: pointer;
+      
+     
+      
+  }
+  .video-icon h3 {
+      color: #fff;
+      font-family:'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      padding-top: 34px;
+  }
+
+  /* End video part */
+
+    
+         /* This is About Part Css */
+#about-part{
+    padding: 70px;
+}
+
+.about-text h2{
+    font-size: 22px;
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-bottom: 0 !important;
+
+}
+
+.about-text p{
+    color: #83818a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 0 !important;
+}
+
+.about-text a{
+    text-decoration: none;
+    border: 1px solid #0cc5bc;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+    /* About part End Css */
+
+
+   /* service start css */
+
+#service-part{
+    padding: 70px 0px;
+
+}
+.service-head h2{
+    color:#413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family:'Playfair Display', serif;
+}
+.service-head p{
+    color:#828186 ;
+    font-size: 14px;
+    font-family:'Playfair Display', serif;
+    position: relative;
+}
+.service-head p::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #828186;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+}
+
+.service-text{
+    padding-top: 80px ;
+}
+.service-text img{
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+.service-text h5{
+    font-size: 14px;
+    color:#413d4b ;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.service-text p{
+    font-size: 14px;
+    font-family:'Roboto', sans-serif ;
+    padding: 0px 55px;
+    line-height: 24px;
+}
+
+
+   /* service end css */
+
+
+   /*Team part Start*/
+
+   #Team{
+       background: url(../Images/team-bg.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       position: relative;
+       padding: 70px 0;
+   }
+
+   #Team::after{
+       position: absolute;
+       content: '';
+       height: 100%;
+       width: 100%;
+       top: 0;
+       left: 0;
+       background-color: rgba(24, 17, 58, 0.7);
+   }
+   .team-top-text{
+       z-index: 100;
+       position: relative;
+       color: #fff;
+       text-align: center;
+   }
+
+   .team-top-text h3{
+       font-size: 22px;
+       font-family:'Playfair Display', serif;
+       font-weight: 700;
+
+   }
+
+   .team-top-text p{
+       font-size: 14px;
+       font-family:'Playfair Display', serif;
+       position: relative;
+       
+   }
+
+   .team-top-text p::after{
+       position: absolute;
+       content: '';
+       width: 50px;
+       height: 2px;
+       background:#655b80 ;
+       left: 50%;
+       transform: translateX(-50%);
+       top: 40px;
+
+
+       
+   }
+
+   /* team member css */
+   .team-member{
+       position: relative;
+       z-index: 100;
+       text-align: center;
+       color: #fff;
+   }
+
+   .team-card{
+       background: none;
+       border: 1px solid #fff;
+   }
+
+   .team-member h5 {
+       font-size: 13px;
+       font-family: 'Roboto', sans-serif;
+       margin: 0; 
+
+   }
+
+   .team-member p{
+       font-size: 13px;
+       font-family:'Roboto', sans-serif;
+       font-weight: 300;
+   }
+
+   .team-text-button {
+       position: relative;
+       z-index: 120;
+       text-align: center;
+       
+   }
+
+   .team-text-button p{
+       color: #fff;
+       padding-bottom: 30px;
+
+
+   }
+
+   .team-text-button a{
+    text-decoration: none;
+    border: 1px solid #0cc5bc;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    
+   }
+
+  .team-slider{
+      position: relative;
+      z-index: 100;
+      padding: 70px;
+  }
+
+
+  .team-slider .slick-dots{
+      position: absolute;
+      cursor: pointer;
+      bottom: 30px;
+
+  }
+
+  /* team member css end */
+
+  #project{
+      padding: 70px 0;
+  }
+
+  .project-part-left h3 {
+      font-size: 22px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #413d4b;
+      text-transform: uppercase;
+
+  }
+  .project-part-right p{
+      font-size: 14px;
+      font-family:'Playfair Display', serif;
+      color:#413d4b;
+      text-align: center;
+  }
+
+  .project-part-left{
+      padding-bottom: 70px;
+  }
+
+  .project-button a {
+    text-decoration: none;
+    border: 1px solid #0cc5bc;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+    
+  }
+  /* team two start */
+
+  #team-two{
+      background: url(../Images/team-2-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 70px 0;
+      position: relative;
+
+  }
+
+  #team-two::after{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color:rgba(24, 17, 58, 0.7) ;
+  }
+  .team-slider-text{
+      position: relative;
+      z-index: 100;
+      color: #fff;
+  }
+  .team-slider-text i{
+      font-size: 30px;
+      padding-bottom: 45px;
+  }
+
+  .team-slider-text p{
+      font-size:  14px;
+      font-family: 'Roboto', sans-serif;
+      line-height: 28px;
+      padding: 0 80px;
+      padding-bottom: 50px;
+      
+  }
+  .team-slider-text h4{
+      font-size: 14px;
+      font-family:'Roboto', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  .team-slider-text h5{
+      font-size: 13px;
+      font-family:'Roboto', sans-serif;
+      font-weight: 300;
+      padding-bottom: 45px;
+      text-transform: uppercase;
+  }
+  .team-slider-img{
+      position: relative;
+      z-index: 100;
+  }
+  .team-slider-img img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      
+  }
+  .slide-img {
+      width: 500px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 100;
+      
+  }
+  .text-slider{
+      position: relative;
+      z-index: 100;
+  }
+  .team-arrow-left{
+      position: absolute;
+      z-index: 100;
+      color: #fff;
+      font-size: 20px;
+      top: 79%;
+      left: 27%;
+      cursor: pointer;
+  }
+  .team-arrow-right{
+      position: absolute;
+      z-index: 100;
+      color: #fff;
+      font-size: 20px;
+      top: 79%;
+      right: 26%;
+      cursor: pointer;
+
+  }
+  .slick-center .team-slider-img img{
+      border: 3px solid red;
+     transform: rotate(360deg);
+      transition: 1s;
+      cursor: pointer;
+     
+  }
+
+                    /* Contact Part Start */
+   #contact{
+       padding: 70px 0 ;
+   } 
+   .contact-left h3,
+   .contact-right h3 {
+       font-size: 22px;
+       font-family:'Playfair Display', serif ;
+       font-weight: 700;
+       padding-bottom: 35px;
+       color:#413d4b ;
+   } 
+   .contact-left a {
+    text-decoration: none;
+    border: 1px solid #0cc5bc;
+    color: #0cc5bc;
+    padding: 10px 40px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    
+  }
+  /* Footer Css Start */
+  #footer{
+      background: url(../Images/fotter-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 70px 0; 
+  }
+  #footer::after{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(24, 17, 58, 0.7);
+  }
+  .footer-top-wrape{
+      position: relative;
+      z-index: 100;
+      color: #fff;
+  }
+  .footer-top-left img{
+      padding-bottom: 37px ;
+  }
+  .footer-top-left p{
+      font-size: 14px;
+      font-family:'Roboto', sans-serif;
+      font-weight: 300;
+      line-height: 26px;
+      padding: 0 70px 0 0;
+  }
+  .footer-top-middle h4, .footer-top-right h4{
+      font-size: 15px;
+      font-family:'Roboto', sans-serif;
+      font-weight: 700;
+      padding-bottom: 42px;
+      text-transform: uppercase;
+  }
+  .footer-top-middle p {
+      font-size: 14px;
+      font-family:'Roboto', sans-serif;
+      font-weight: 300;
+      line-height: 26px; 
+  }
+  .footer-top-middle i{
+      margin-right: 08px;
+  }
+  .footer-top-right input{
+      background: none;
+      color: #fff;
+      border-radius: 0;
+      
+  }
+  .btn-custom{
+      background: #9a92ac;
+      border-radius: 0;
+      padding: 08px 25px;
+      opacity: 0.8;
+  }
+  .btn-custom i{
+      font-size: 22px;
+  }
+  .footer-top-right ul li{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      display: inline-block;
+      text-align: center;
+      margin-right: 8px;
+  }
+ .footer-top-right ul{
+     padding: 0;
+     margin-left: 15px;
+     margin-top: 25px;
+ }
+ .footer-top-right ul li a i{
+     color: #fff;
+ }
+ .footer-button-wrap{
+     position: relative;
+     z-index: 100;
+     color: #fff;
+ }
+ .footer-button-left ul li{
+     display: inline-block;
+     margin-right: 15px;
+    
+ }
+ .footer-button-left ul li a{
+     color: #fff;
+     text-decoration: none;
+ }
+ .footer-button-left ul{
+     padding: 0;
+     margin-top: 80px;
+ }
+   .footer-botton-right p{
+       margin-top: 70px;
+      
+   }
+
+   /* Footer End Start */
+
+                        /* type css */
+
+/*Add custom cursor so it auto inherits font styles*/
+    .typed::after {
+        content: '|';
+        display: inline;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+
+    /*Removes cursor that comes with typed.js*/
+    .typed-cursor{
+    opacity: 0;
+        display: none;
+    }
+    /*Custom cursor animation*/
+    @keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }

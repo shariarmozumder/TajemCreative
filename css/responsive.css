@@ -1,0 +1,132 @@
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+       
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+        
+    }
+  
+
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+       
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+       
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+
+
+    .banner-text {
+        padding-top: 139px;
+        padding-bottom: 140px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 34px;
+    }
+    .about-text p {
+        padding-bottom: 10px;
+        
+    }
+    .about-text a {
+      
+        width: 100%;
+        text-align: center;
+    }
+    #Video-part {
+        padding: 95px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-text-button a {
+        width: 100%;
+        display: inline-block;
+    }
+    .project-button a {
+        width: 100%;
+    }
+    .team-arrow-right {
+        top: 80%;
+        right: 11%;
+        
+    }
+    .team-arrow-left {
+        top: 80%;
+        left: 11%;    
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right h3 {
+        padding-top: 29px;
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .form-inline {
+        margin-left: 177px;
+    }
+    .footer-top-wrape {
+       
+        margin: 0 auto;
+        margin-left: 43px;
+    }
+
+ }
+
+ 
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+
+}

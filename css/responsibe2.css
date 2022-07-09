@@ -1,0 +1,304 @@
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link {
+
+        text-align: center;
+    }
+    .navbar-nav {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+        
+    }
+    .banner-text {
+        padding-top: 150px;
+        padding-bottom: 129px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-bottom: 15px;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #Video-part {
+        padding: 50px 0;
+    }
+    .service-text {
+        padding-top: 37px;
+    }
+    .service-text img {
+        padding-bottom: 22px;
+    }
+    .team-text-button a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .project-button a {
+        width: 100%;
+        text-align: center;
+    }
+    .team-arrow-left{
+        display: none !important;
+    }
+    .team-arrow-right{
+        display: none !important;
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right h3 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .footer-top-left p {
+        padding: 0 60px 0 50px;
+        text-align: center;
+    }
+    .footer-top-middle h4 {
+        text-align: center;
+    }
+    .footer-top-middle p {
+        text-align: center;
+    }
+    .footer-top-right h4 {
+        text-align: center;
+    }
+    .form-inline {
+        margin-left: 125px;
+    }
+    .footer-top-right ul {
+        margin-left: 150px;
+        margin-top: 22px;
+    }
+    .footer-button-left ul li a {
+        font-size: 10px;
+    }
+    .footer-botton-right p {
+        margin-top: -31px;
+        font-size: 10px;
+    }
+    .footer-top-left img {
+        margin-left: 180px;
+    }
+
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar-light .navbar-nav .nav-link {
+       
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .banner-text {
+        padding-top: 150px;
+        padding-bottom: 129px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-bottom: 14px;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #Video-part {
+        padding: 85px;
+    }
+    .service-text {
+        padding-top: 40px;
+    }
+    .team-text-button a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .project-button a {
+        width: 100%;
+        text-align: center;
+    }
+    .team-arrow-left {
+        top: 83%;
+        left: 12%;
+    }
+    .team-arrow-right {
+        top: 83%;
+        right: 12%;
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right h3 {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .form-inline {
+        margin-left: 177px;
+    }
+   
+    .footer-top-middle h4{
+        text-align: center;
+    }
+    .footer-top-left p {
+        padding: 0 44px 0 44px;
+        text-align: center;
+    }
+    .footer-top-middle p {
+        text-align: center;
+    }
+    .form-inline {
+        margin-left: 100px;
+    }
+    .footer-top-right ul {
+        margin-left: 31px;
+        margin-top: 18px;
+    }
+    .footer-button-left ul li a {
+   
+        font-size: 10px;
+    }
+    .footer-botton-right p {
+        font-size: 10px;
+    }
+    .footer-botton-right p {
+        margin-top: 85px;
+    }
+    .footer-top-left img {
+        margin-left: 180px;
+    }
+
+
+    
+
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .navbar-light .navbar-nav .nav-link {
+       
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        background: #11b16e;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+
+
+    .banner-text {
+        padding-top: 139px;
+        padding-bottom: 140px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 34px;
+    }
+    .about-text p {
+        padding-bottom: 10px;
+        
+    }
+    .about-text a {
+      
+        width: 100%;
+        text-align: center;
+    }
+    #Video-part {
+        padding: 95px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-text-button a {
+        width: 100%;
+        display: inline-block;
+    }
+    .project-button a {
+        width: 100%;
+    }
+    .team-arrow-right {
+        top: 80%;
+        right: 11%;
+        
+    }
+    .team-arrow-left {
+        top: 80%;
+        left: 11%;    
+    }
+    .contact-left h3 {
+        text-align: center;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right h3 {
+        padding-top: 29px;
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .form-inline {
+        margin-left: 146px;
+    }
+   
+    .footer-top-wrape {
+       
+        margin: 0 auto;
+        margin-left: 43px;
+    }
+    .footer-top-left img {
+        margin-left: 33px;
+        margin-top: -16px;
+    }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
